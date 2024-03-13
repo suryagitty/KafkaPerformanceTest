@@ -1,5 +1,12 @@
-# KafkaPerformanceTest
-How to performance test Kafka
+# Kafka Performance Testing
+
+How to performance test Kafka ?
+
+Apache kafka provides two inbuilt tools 
+1. Kafka-Producer-Performance-test.sh
+     This is to produce messages into a topic on the broker(s)
+2. Kafka-consumer-perf-test.sh
+     This is to consume the messages from the kafka topics
 
 **High Level**
 1. Download Apache kafka
