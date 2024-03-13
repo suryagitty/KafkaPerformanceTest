@@ -18,8 +18,8 @@ Apache kafka provides two inbuilt tools
 1. Download Apache kafka: curl "https://downloads.apache.org/kafka/3.7.0/kafka_2.12-3.7.0.tgz" -o <filename>.tgz
 2. uncompress the compressed file: tar -xvzf <filename>.tgz
 3. Set path: export path="${PATH}:/<filepath>/bin"
-4. Start zookeeper: zookeeper-server-start.sh /<kafka folder path>/config/zookeeper.properties
-5. Start Kafka server: kafka-server-start.sh /<kafka folder path>/config/server.properties
+4. Start zookeeper: zookeeper-server-start.sh /<kafkafolderpath>/config/zookeeper.properties
+5. Start Kafka server: kafka-server-start.sh /<kafkafolderpath>/config/server.properties
    
 **How to produce Kafka messages into broker**
 
