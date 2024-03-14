@@ -23,6 +23,6 @@ Apache kafka provides two inbuilt tools
    
 **How to produce Kafka messages into broker**
 
-kafka-producer-perf-test.sh --topic <topicname> --num-records <some number> --throughput <enter number> --producer-props bootstrap.servers=<broker ip address> --record-size <size in bytes>
+kafka-producer-perf-test.sh --topic <topicname> --num-records Anynumber --throughput Any_number --producer-props bootstrap.servers=BrokerIPAddress --record-size size_in_bytes
 
 e.g kafka-producer-perf-test.sh --topic abcd --num-records 10000 --throughput 50 --producer-props bootstrap.servers=11.111.111.11:9092,11.111.111.12:9092 --record-size 150
